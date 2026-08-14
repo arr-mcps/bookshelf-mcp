@@ -1,6 +1,6 @@
 # bookshelf-mcp
 
-Part of the [arr-mcps](https://github.com/SavageCore/arr-mcps) collection.
+Part of the [arr-mcps](https://github.com/arr-mcps/arr-mcps) collection.
 MCP server exposing [Bookshelf](https://github.com/pennydreadful/bookshelf)'s
 v1 REST API (a Readarr fork, [OpenAPI 3.0.1](https://github.com/pennydreadful/bookshelf/blob/develop/src/Readarr.Api.V1/openapi.json))
 as tools, so an LLM can read and manage a Bookshelf instance: authors, books,
@@ -17,7 +17,7 @@ Generate one in Bookshelf **Settings > General > Security**. Auth is the
 
 ## Install
 
-Download a wheel from the [latest release](https://github.com/SavageCore/bookshelf-mcp/releases/latest)
+Download a wheel from the [latest release](https://github.com/arr-mcps/bookshelf-mcp/releases/latest)
 and install it as a `uv` tool (no repo checkout needed):
 
 ```bash
@@ -107,7 +107,7 @@ make help  # list all commands
 | `make clean` | Remove build artifacts |
 
 The release workflow (`.github/workflows/release.yml`) builds and publishes to
-[Releases](https://github.com/SavageCore/bookshelf-mcp/releases) whenever a `v*`
+[Releases](https://github.com/arr-mcps/bookshelf-mcp/releases) whenever a `v*`
 tag is pushed - so the usual flow is `make bump-patch`, commit, then tag and
 push.
 
